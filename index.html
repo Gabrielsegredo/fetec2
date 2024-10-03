@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" />
+    <title>GT Destroyer</title>
+    <style>
+        /* Estilo para centralizar a imagem do GT Destroyer */
+        .gt-container {
+            display: flex;
+            justify-content: center;  /* Centraliza horizontalmente */
+            align-items: center;      /* Centraliza verticalmente */
+            height: auto;             /* Ajusta para a altura do conteúdo */
+            margin-bottom: 10px;      /* Reduz o espaço abaixo da imagem */
+        }
+
+        .gt-container img {
+            max-width: 100%;         /* Garante que a imagem não ultrapasse a largura da tela */
+            height: auto;            /* Mantém a proporção original da imagem */
+        }
+
+        /* Reduzindo o espaçamento no topo da seção */
+        section {
+            margin-top: 0px;         /* Remove a margem superior */
+        }
+
+        /* Estilos do botão voltar ao topo */
+        .back-to-top {
+            margin-top: 20px;
+        }
+
+        .back-to-top button {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .back-to-top button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-brand">
+                <a href="index.html">
+                    <div class="img1">
+                        <img src="img/Logo1.png" alt="GT Destroyer" />
+                    </div>
+                </a>
+            </div>
+            <div class="navbar-menu">
+                <ul class="navbar-nav-left"></ul>
+                <ul class="navbar-nav-right">
+                   
+                </ul>
+            </div>
+            <button type="button" class="CENTRAL" id="menu-btn">
+                <span class="top"></span>
+                <span class="middle"></span>
+                <span class="bottom"></span>
+            </button>
+        </div>
+    </nav>
+    <div class="mobile-menu hidden" id="menu">
+        <a href="#">
+            <img src="img/marker.svg" alt="" />
+            <span>Find a store</span>
+        </a>
+    </div>
+    <div class="container-slider">
+        <button id="prev-button"><img src="img/seta.png" alt="prev-button"></button>
+        <div class="container-images">
+            <video src="videoprincipal.mp4" controls width="1000" autoplay muted loop>
+        </div>
+        <button id="next-button"><img src="img/seta.png" alt="next-button"></button>
+    </div>
+
+    <section>
+        <center>
+            <h2 class="text-xl">Por que um Gt Destroyer?</h2>
+            <div class="gt-container">
+                <img src="./img/img Carro.png" alt="GT Destroyer" />
+            </div>
+            <div style="display: flex; justify-content: center; align-items: center; gap: 30px;">
+                <!-- Primeira Seção -->
+                <div>
+                    <img src="./img/simplificando a vida .png" alt="Simplificando a sua vida" width="100" />
+                    <p>Simplificando a sua vida</p>
+                </div>
+    
+                <!-- Segunda Seção -->
+                <div>
+                    <img src="./img/futuro eletronico.png" alt="O futuro é elétrico" width="100" />
+                    <p>O futuro é elétrico</p>
+                </div>
+            </div>
+        </center>
+    </section>
+
+    <br><br><br>
+    <section id="quem-somos">
+        <center>
+            <h2 class="text-xl">Quem Somos</h2>
+            <p>Uma empresa focada em entregar soluções inovadoras para o mercado automotivo elétrico.<br>Nosso objetivo é simplificar a vida dos nossos clientes com tecnologias sustentáveis e de ponta</br>. A GT Destroyer se orgulha de ser referência em inovação e eficiência no setor de carros elétricos.</p>
+            <img src="./img/NOS CONHEÇA.png" alt="Equipe GT Destroyer" width="500">
+        </center>
+    </section>
+
+    <br><br><br>
+    <section id="tutoriais">
+        <center>
+            <h2 class="text-xl">Tutoriais</h2>
+           
+            <ul>
+                <li><a href="https://xandesilva.github.io/CAR-TEST/">Preparação do Carrinho</a></li>
+                <li><a href="https://xandesilva.github.io/CAR-TEST/">Configuração Inicial</a></li>
+                <li><a href="https://xandesilva.github.io/CAR-TEST/">Operação do Controle Remoto</a></li>
+                <li><a href="https://xandesilva.github.io/CAR-TEST/">Durante o Corte</a></li>
+                <li><a href="https://xandesilva.github.io/CAR-TEST/">Finalização</a></li>
+                <li><a href="https://xandesilva.github.io/CAR-TEST/">Manutenção Regular</a></li>
+                <li><a href="https://xandesilva.github.io/CAR-TEST/">Cuidados Com o Controle</a></li>
+                <li><a href="https://xandesilva.github.io/CAR-TEST/">O que não se deve fazer em hipótese alguma</a></li>
+            </ul>
+        </center>
+    </section>
+
+    <br><br><br><br>
+    <section class="videomp4">
+        <div class="video-container">
+            <center>
+                <video src="ROBOvideo.mp4" controls width="1000" autoplay muted loop>
+                    <track kind="subtitles" label="Legendas" srclang="pt-bt" src="leganda.vtt" default>
+                </video>
+            </center>
+        </div>
+    </section>
+
+    <br><br><br><br>
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="social-links">
+                <p>Siga nas redes sociais</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/gtdestroyerbrasil?igsh=YWx3bWM3czYwdTZ2" aria-label=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://youtube.com" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+
+                    <p>Empresas parceiras</p>
+                    <a href="https://www.instagram.com/inogoficial?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" aria-label="Empresa"><img src="./img/logo empresa.png" alt="Empresa Logo"></a>
+                </div>
+
+                <div class="back-to-top">
+                    <button id="back-to-top-btn" onclick="window.scrollTo({top: 0, behavior: 'smooth'});">
+                        &#9650; Voltar ao Início
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <center>
+            <p>© 2023 UNIDAS AUTOGESTÃO DE SAÚDE. Todos os direitos reservados.</p>
+        </center>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
